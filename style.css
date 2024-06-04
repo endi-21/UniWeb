@@ -1,0 +1,122 @@
+.dark-mode{
+    background-color: #121212;
+    color: white;
+}
+
+.light-mode{
+    background-color: white;
+    color: black;
+}
+
+.nav-bar{
+    background-color: #c72a07;
+    padding: 2px 0px;
+    display: flex;
+}
+
+.nav-bar ul{
+    padding-left: 0;
+    width: 100%;
+}
+
+.nav-bar ul li{
+    padding-top: 1%;
+    display: inline;
+    text-align: center;
+    width: 16.6666667%;    
+}
+
+.nav-bar ul li a{
+    color: white; 
+    text-decoration: none;  
+}
+
+.nav-bar ul{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+#theme-btn{
+    border: none;
+    width: 3rem;
+    height: auto;
+    margin-right: 2%;
+    background-color: transparent;
+}
+
+#theme-btn img{
+    width: 100%;
+    height: auto;
+}
+
+.uni-name{
+    margin-top: 2%;
+    text-align: center;
+}
+
+main h4{
+    color: #c72a07;
+}
+
+.description{
+    margin: 0 2%;
+}
+
+main .col{
+    display: flex;
+}
+
+.col .container{
+    border-top: 5px solid #c72a07;
+    margin: 2% 2%;
+    padding: 1% 2%;
+    justify-content: space-evenly;
+}
+
+.container a{
+    text-decoration: none;
+    color: #3472A5;
+}
+
+.form{
+    margin-left: 2%;
+}
+
+.hide{
+    display: none;
+}
+
+.input-form{
+    border-radius: 5px;
+    border: 2px solid #c72a07;
+}
+
+.send-btn{
+    color: white;
+    background-color: #c72a07;
+}
+
+footer{
+    background: #c72a07;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center; 
+    padding: 0; 
+    margin: 0;
+}
+footer ul li{
+    display: inline;
+    margin: 1% 5% 1% 5%;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
